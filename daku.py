@@ -9,13 +9,13 @@ attack_in_progress = False
 current_attack = None  # Store details of the current attack
 attack_history = []  # Store attack logs
 
-TELEGRAM_BOT_TOKEN = '7901196184:AAGk7rHjiFP_-A7VxpuHH4eZ3GVu02pnDyY'
-ADMIN_USER_ID = 1300081723
+TELEGRAM_BOT_TOKEN = '7454983271:AAGL9JzjR_62y5YJcdhY60oQO6_GPH5F2mE'
+ADMIN_USER_ID = 7972657976
 MONGO_URI = "mongodb+srv://Kamisama:Kamisama@kamisama.m6kon.mongodb.net/"
 DB_NAME = "sarkar"
 COLLECTION_NAME = "users"
 attack_in_progress = False
-ATTACK_TIME_LIMIT = 600  # Maximum attack duration in seconds
+ATTACK_TIME_LIMIT = 240  # Maximum attack duration in seconds
 COINS_REQUIRED_PER_ATTACK = 5  # Coins required for an attack
 
 # MongoDB setup
